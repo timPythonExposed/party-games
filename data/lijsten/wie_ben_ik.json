@@ -1,0 +1,56 @@
+{
+  "categories": {
+    "belgische_sterren": {
+      "label": "Belgische Sterren",
+      "persons": [
+        "Eddy Merckx", "Stromae", "Angèle", "Jean-Claude Van Damme",
+        "Kim Clijsters", "Justine Henin", "Remco Evenepoel", "Wout van Aert",
+        "Kevin De Bruyne", "Romelu Lukaku", "Eden Hazard", "Thibaut Courtois",
+        "Nafi Thiam", "René Magritte", "Jacques Brel", "Urbanus",
+        "Will Tura", "Helmut Lotti", "Niels Destadsbader", "Laura Tesoro",
+        "Tom Boonen", "Philippe Gilbert", "Axel Witsel", "Dries Mertens",
+        "Sandra Kim", "Plastic Bertrand", "Arno", "Bart De Wever",
+        "Tom Waes", "Frank Deboosere", "Sofie Lemaire", "Raymond van het Groenewoud",
+        "Geert Hoste", "Alex Agnew", "Dana Winner", "Marc Wilmots",
+        "Stan Van Samang", "Belle Perez", "Natalia", "Lara Fabian"
+      ]
+    },
+    "internationale_sterren": {
+      "label": "Internationale Sterren",
+      "persons": [
+        "Beyoncé", "Taylor Swift", "Elon Musk", "Donald Trump",
+        "Barack Obama", "Cristiano Ronaldo", "Lionel Messi", "Adele",
+        "Ed Sheeran", "Lady Gaga", "Rihanna", "Drake",
+        "Billie Eilish", "Dua Lipa", "Lewis Hamilton", "Max Verstappen",
+        "Oprah Winfrey", "David Beckham", "Serena Williams", "Roger Federer",
+        "Emma Watson", "Ryan Reynolds", "Dwayne Johnson", "Arnold Schwarzenegger",
+        "Shakira", "Brad Pitt", "Angelina Jolie", "Tom Hanks",
+        "Will Smith", "Jennifer Lopez", "Eminem", "Kanye West"
+      ]
+    },
+    "fictieve_personages": {
+      "label": "Fictieve Personages",
+      "persons": [
+        "Harry Potter", "Darth Vader", "Spider-Man", "Batman",
+        "Superman", "Shrek", "Elsa", "Simba",
+        "Mickey Mouse", "Donald Duck", "Mario", "Pikachu",
+        "Sherlock Holmes", "James Bond", "Gandalf", "Frodo",
+        "SpongeBob", "Homer Simpson", "Bart Simpson", "Asterix",
+        "Obelix", "Kuifje", "Lucky Luke", "Pippi Langkous",
+        "Mega Mindy", "Samson", "Kabouter Plop", "K3",
+        "Lambik", "Bumba", "Calimero", "Winnie de Poeh"
+      ]
+    },
+    "historische_figuren": {
+      "label": "Historische Figuren",
+      "persons": [
+        "Napoleon", "Cleopatra", "Julius Caesar", "Albert Einstein",
+        "Leonardo da Vinci", "William Shakespeare", "Ludwig van Beethoven", "Wolfgang Amadeus Mozart",
+        "Vincent van Gogh", "Mahatma Gandhi", "Martin Luther King", "Nelson Mandela",
+        "Marie Curie", "Queen Victoria", "Abraham Lincoln", "Charles Darwin",
+        "Marco Polo", "Christoffel Columbus", "Nikola Tesla", "Aristoteles",
+        "Pieter Paul Rubens", "Jan van Eyck", "Pieter Bruegel", "Ambiorix"
+      ]
+    }
+  }
+}

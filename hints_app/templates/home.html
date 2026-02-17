@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block title %}{{ app_name }} – Kies een spel{% endblock %}
+{% block content %}
+<header class="page-header">
+  <h1>{{ app_name }}</h1>
+  <p class="subtitle">Kies een spel om te spelen!</p>
+  <button type="button" class="icon-btn theme-toggle" id="themeToggle" aria-label="Wissel thema">
+    <span class="icon-sun">&#9728;</span><span class="icon-moon">&#9790;</span>
+  </button>
+</header>
+
+<div class="game-picker">
+  <a href="/hints" class="game-card game-card--hints">
+    <span class="game-card-icon">&#129309;</span>
+    <h2>Hints</h2>
+    <p>Beeld het woord uit zonder te praten. Jouw team raadt!</p>
+  </a>
+  <a href="/pictionary" class="game-card game-card--pictionary">
+    <span class="game-card-icon">&#9999;&#65039;</span>
+    <h2>Pictionary</h2>
+    <p>Teken het woord en laat je team raden!</p>
+  </a>
+  <a href="/guess-the-year" class="game-card game-card--gty">
+    <span class="game-card-icon">&#127925;</span>
+    <h2>Raad het Jaar</h2>
+    <p>Luister naar het nummer en raad het uitbrengingsjaar!</p>
+  </a>
+  <a href="/thirty-seconds" class="game-card game-card--ts">
+    <span class="game-card-icon">⏱️</span>
+    <h2>30 Seconds</h2>
+    <p>Beschrijf 5 woorden in 30 seconden. Wie bereikt als eerste de finish?</p>
+  </a>
+  <a href="/taboe" class="game-card game-card--taboe">
+    <span class="game-card-icon">🚫</span>
+    <h2>Taboe</h2>
+    <p>Beschrijf het woord zonder de verboden woorden te gebruiken!</p>
+  </a>
+  <a href="/wie-ben-ik" class="game-card game-card--wbi">
+    <span class="game-card-icon">🤔</span>
+    <h2>Wie Ben Ik?</h2>
+    <p>Stel ja/nee vragen en raad welke persoon op het scherm staat!</p>
+  </a>
+  <a href="/muziekbingo" class="game-card game-card--mbingo">
+    <span class="game-card-icon">🎵</span>
+    <h2>Muziekbingo</h2>
+    <p>Luister naar nummers en vink je bingokaart af. Wie roept eerst BINGO?</p>
+  </a>
+  <a href="/dit-of-dat" class="game-card game-card--dod">
+    <span class="game-card-icon">🤷</span>
+    <h2>Dit of Dat</h2>
+    <p>Kies tussen twee opties en verdedig je keuze. Leuk debat gegarandeerd!</p>
+  </a>
+  <a href="/bluf" class="game-card game-card--bluf">
+    <span class="game-card-icon">🃏</span>
+    <h2>Bluf</h2>
+    <p>Is het waar of niet waar? Raad juist en scoor punten voor je team!</p>
+  </a>
+  <a href="/schattingen" class="game-card game-card--schat">
+    <span class="game-card-icon">🔢</span>
+    <h2>Schattingen</h2>
+    <p>Wie kan het beste schatten? Het dichtst bij het antwoord wint het punt!</p>
+  </a>
+</div>
+{% endblock %}
